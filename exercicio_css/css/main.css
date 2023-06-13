@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body {
+    background-color: #ebe5c5;
+}
+
+header {
+    padding: 20px;
+    background-image: linear-gradient(to top, #1a5c37, #3ddc84);
+    text-align: center;
+    color: white;
+
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+
+}
+
+ul {
+    list-style: none;
+}
