@@ -16,17 +16,17 @@
             <nav>
                 <ul>
                     <li class="menu">
-                        <a href="#">Sobre a loja</a>
+                        <a href="#about">Sobre a loja</a>
                     </li>
                     <li class="menu">
-                        <a href="#">Contato</a>
+                        <a href="#contact">Contato</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section>
+    <section id="about">
         <div class="container">
             <img class="store-front" src="loja.jpg" alt="fachada-loja">
             <div>
@@ -45,49 +45,58 @@
             </div>
         </div>
     </section>
-    <section class="container">
-        <h2>Contato</h2>
-        <div>
-            <div>
-                <h3>Fale Conosco</h3>
-                <form action="" method="post">
-                    <input type="text" name="itxt" id="txt" placeholder="seu nome">
-                    <input type="email" name="iemail" id="email" placeholder="seu e-mail">
-                    <input type="tel" name="itel" id="tel" placeholder="Telefone">
-                    <textarea placeholder="Mensagem"></textarea>
-                    <button type="submit">Enviar</button>
-                </form>
-            </div>
-            <div>
-                <h3>Nos acompanhe</h3>
-                <ul>
-                    <li>
-                        <a href="#" title="Siga nos no instagram">
-                            <img src="instagram.png" alt="logo do instagram">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" title="Visite nosso Facebook">
-                            <img src="facebook.png" alt="logo do facebook">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#" title="Se inscreva no canal">
-                            <img src="youtube.png" alt="logo do youtube">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <h3>Venha até Nós</h3>
-                <p>
-                    Rua javascript n° 124, Vila Madalena - São Paulo - SP
-                </p>
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <div class="contact-methods">
+                <div class="sac">
+                    <h3>Fale Conosco</h3>
+                    <form action="" method="post">
+                        <input type="text" name="itxt" id="txt" placeholder="seu nome" required>
+                        <input type="email" name="iemail" id="email" placeholder="seu e-mail" required>
+                        <input type="tel" name="itel" id="tel" placeholder="Telefone">
+                        <textarea placeholder="Mensagem"></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div class="sac">
+                    <h3>Nos acompanhe</h3>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#" title="Siga nos no instagram">
+                                <img src="instagram.png" alt="logo do instagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Visite nosso Facebook">
+                                <img src="facebook.png" alt="logo do facebook">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Se inscreva no canal">
+                                <img src="youtube.png" alt="logo do youtube">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sac">
+                    <h3>Venha até Nós</h3>
+                    <p>
+                        Rua javascript n° 124, Vila Madalena - São Paulo - SP
+                    </p>
+                </div>
             </div>
         </div>
     </section>
 
 
-    <footer></footer>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; GameShop - Todos os direitos reservados 2023
+            </p>
+
+        </div>
+    </footer>
 </body>
 </html>
