@@ -11,6 +11,12 @@ header {
     color: white;
     text-shadow: 1px 1px 1px rgba(83, 83, 83, 0.548);
 }
+
+nav ul li a:hover {
+    border-radius: 10px;
+    color: black;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -51,6 +57,7 @@ header .container, section .container {
 
 .brand-lists li {
     display: inline;
+    margin-right: 8px;
 }
 
 section .container {
@@ -63,6 +70,7 @@ section {
 
 section h2 {
     margin-bottom: 16px;
+    color: rgb(122, 122, 241);
 }
 
 section p {
