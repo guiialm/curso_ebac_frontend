@@ -2,3 +2,16 @@
     margin: 0;
     padding: 0;
 }
+
+.container {
+    height: 500px;
+    width: 800px;
+    background-color: red;
+    display: flex;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    
+}
