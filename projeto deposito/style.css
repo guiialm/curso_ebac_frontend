@@ -3,15 +3,37 @@
     padding: 0;
 }
 
-.container {
-    height: 500px;
-    width: 800px;
-    background-color: red;
-    display: flex;
+#dep {
+
 }
 
-.form {
-    display: flex;
-    flex-direction: column;
-    
+.container {
+    position: relative;
+    right: -450px;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    }
+
+section .container {
+    align-items: flex-start;
+}
+
+form input, form textarea, form button { /* os fomr abaixo um do outro */
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    height: 180px;
+    resize: none; /* pra pessoa nao mexer no tamanho */
+}
+
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(50, 134, 50, 0.808);
+    color: white;
+    margin-left: 10px;
 }
