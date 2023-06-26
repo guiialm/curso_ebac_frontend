@@ -44,6 +44,20 @@ button {
     padding: 16px;
     color: white;
     display: none;
-    
+}
 
+.error-menssage {
+    font-size: 12px;
+    width: 325px;
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: red;
+    color: white;
+    display: none;
+}
+
+input.error {
+    color: rgb(245, 7, 7);
+    border-color: red;
+    outline-color: red;
 }
