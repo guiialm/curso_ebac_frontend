@@ -37,3 +37,13 @@ button {
     color: white;
     margin-left: 10px;
 }
+
+.sucess-mensagem{
+    width: 320px;
+    background-color: rgba(50, 134, 50, 0.808);
+    padding: 16px;
+    color: white;
+    display: none;
+    
+
+}
