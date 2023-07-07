@@ -18,7 +18,7 @@ const inpuNotaAtividade = document.getElementById('nota-atividade');
 let linha = '<tr>';
 linha += `<td> ${inputNomeAtividade.value} </td>`;
 linha += `<td> ${inpuNotaAtividade.value} </td>`;
-linha += `<td> ${inpuNotaAtividade.value >= 7 ? 'imgAprovado' : 'Reprovado'} </td>`;
+linha += `<td> ${inpuNotaAtividade.value >= 7 ? imgAprovado : imgReprovado } </td>`;
 linha += '</tr>'
 
 linhas += linha;
